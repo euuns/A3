@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AllergyFoodListInfo"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/et"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:layout_weight="2"
+            android:backgroundTint="#b4d47a"
+            android:textColorHighlight="#e4e99e"
+            android:hint="음식 계열을 입력"/>
+
+        <Button
+            android:id="@+id/search_button"
+            android:layout_width="80dp"
+            android:layout_height="37dp"
+            android:text="검  색"
+            android:background="@drawable/gradient"
+            android:onClick="put" />
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="510dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_weight="1" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></LinearLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF"
+        app:itemIconTint="#b4d47a"
+        app:itemIconSize="38dp"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/my_navigation_items"/>
+
+</LinearLayout>

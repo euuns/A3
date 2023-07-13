@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/addBtn"
+        app:showAsAction="always"
+        android:icon="@drawable/add"
+        android:enabled="true"
+        android:title=" " />
+
+    <item
+        android:id="@+id/foodBtn"
+        app:showAsAction="always"
+        android:icon="@drawable/food"
+        android:enabled="true"
+        android:checked="true"
+        android:title=" " />
+
+    <item
+        android:id="@+id/mapBtn"
+        app:showAsAction="always"
+        android:icon="@drawable/hospital"
+        android:enabled="true"
+        android:checked="true"
+        android:title=" " />
+
+    <item
+        android:id="@+id/userBtn"
+        app:showAsAction="always"
+        android:icon="@drawable/man"
+        android:enabled="true"
+        android:title=" " />
+
+</menu>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserInformation"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/framLayout"></FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/gotoMain"
+            android:background="@drawable/logo"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="545dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/info"
+            android:padding="25dp"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:id="@+id/correctionBtn"
+                    android:layout_gravity="right|top"
+                    android:background="@drawable/baseline_settings_24"/>
+
+            </FrameLayout>
+
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></ListView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/info"
+            android:padding="33dp"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/symSaveBtn"
+                    android:layout_gravity="right|top"
+                    android:text="저 장"
+                    android:textSize="11dp"
+                    android:textColor="#777"
+                    android:backgroundTint="#DEDEDE"
+                    android:background="@drawable/click_btn"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="증상"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:layout_marginBottom="5dp"/>
+
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="2">
+
+                    <CheckBox
+                        android:id="@+id/tachycardia"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="빈맥"
+                        android:buttonTint="#b4d47a"
+                        android:textSize="13dp" />
+
+                    <CheckBox
+                        android:id="@+id/hives"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="두드러기"
+                        android:buttonTint="#b4d47a"
+                        android:textSize="13dp" />
+
+                    <CheckBox
+                        android:id="@+id/colic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="복통"
+                        android:buttonTint="#b4d47a"
+                        android:textSize="13dp" />
+
+                    <CheckBox
+                        android:id="@+id/etc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="기타"
+                        android:buttonTint="#b4d47a"
+                        android:textSize="13dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="right"
+                    android:layout_weight="2">
+
+                    <CheckBox
+                        android:id="@+id/diarrhea"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="설사"
+                        android:buttonTint="#b4d47a"
+                        android:textSize="13dp" />
+
+                    <CheckBox
+                        android:id="@+id/dyspnoea"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="호흡곤란"
+                        android:buttonTint="#b4d47a"
+                        android:textSize="13dp" />
+
+                    <CheckBox
+                        android:id="@+id/consciousness"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="의식 저하"
+                        android:buttonTint="#b4d47a"
+                        android:textSize="13dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="right"
+                    android:layout_weight="2">
+
+                    <CheckBox
+                        android:id="@+id/edema"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="부종"
+                        android:buttonTint="#b4d47a"
+                        android:textSize="13dp" />
+
+                    <CheckBox
+                        android:id="@+id/puke"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="구토"
+                        android:buttonTint="#b4d47a"
+                        android:textSize="13dp" />
+
+                    <CheckBox
+                        android:id="@+id/whirl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="어지러움"
+                        android:buttonTint="#b4d47a"
+                        android:textSize="13dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="12dp"
+                android:textColor="#7A7A7A"
+                android:text="알레르기 증상은 개인차가 있을 수 있습니다."/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF"
+        app:itemIconTint="#b4d47a"
+        app:itemIconSize="37dp"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/my_navigation_items"/>
+
+</LinearLayout>

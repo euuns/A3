@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ModifyInformation"
+    android:orientation="vertical"
+    android:padding="50dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="570dp"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/allergy_list"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:choiceMode="singleChoice"></ListView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:id="@+id/deleteBtn"
+                android:background="@drawable/click_btn"
+                android:backgroundTint="#b4d47a"
+                android:layout_marginRight="15dp"
+                android:text="삭　제"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:id="@+id/okBtn"
+                android:background="@drawable/click_btn"
+                android:backgroundTint="#e4e99e"
+                android:layout_marginLeft="15dp"
+                android:text="완　료"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

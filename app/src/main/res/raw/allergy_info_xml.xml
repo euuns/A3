@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DOCUMENT>
+    <FOOD_ALLERGY>
+        <FOOD_NM>메밀</FOOD_NM>
+        <EXPRESSION_AGE>불특정</EXPRESSION_AGE>
+        <SYMPTOM_CON>다른 식품에 비하여 천식, 아나필락시스 유발 빈도가 높음</SYMPTOM_CON>
+        <SYMPTOM>두드러기, 호흡곤란, 위장관 증상</SYMPTOM>
+        <ETC></ETC>
+    </FOOD_ALLERGY>
+
+    <FOOD_ALLERGY>
+        <FOOD_NM>밀</FOOD_NM>
+        <EXPRESSION_AGE>아동, 청소년, 성인</EXPRESSION_AGE>
+        <SYMPTOM_CON>운동과 연관된 특수 형태의 아나필락시스의 원인</SYMPTOM_CON>
+        <SYMPTOM>두드러기, 호흡곤란, 위장관 증상</SYMPTOM>
+        <ETC></ETC>
+    </FOOD_ALLERGY>
+
+    <FOOD_ALLERGY>
+        <FOOD_NM>대두</FOOD_NM>
+        <EXPRESSION_AGE>아동</EXPRESSION_AGE>
+        <SYMPTOM_CON></SYMPTOM_CON>
+        <SYMPTOM>피부발진 및 두드러기, 호흡곤란, 위장관 증상</SYMPTOM>
+        <ETC></ETC>
+    </FOOD_ALLERGY>
+
+    <FOOD_ALLERGY>
+        <FOOD_NM>호두</FOOD_NM>
+        <EXPRESSION_AGE>유아기 이후</EXPRESSION_AGE>
+        <SYMPTOM_CON>서구에 이어 국내에서 발생 빈도가 증가하는 식품</SYMPTOM_CON>
+        <SYMPTOM>피부발진 및 두드러기</SYMPTOM>
+        <ETC>성장해가면서 호전이 잘되는 유제품에 비해 오래 지속되는 환자가 많음</ETC>
+    </FOOD_ALLERGY>
+
+    <FOOD_ALLERGY>
+        <FOOD_NM>땅콩</FOOD_NM>
+        <EXPRESSION_AGE>유아기 이후</EXPRESSION_AGE>
+        <SYMPTOM_CON>서구에 이어 국내에서 발생 빈도가 증가하는 식품</SYMPTOM_CON>
+        <SYMPTOM>피부발진 및 두드러기</SYMPTOM>
+        <ETC>성장해가면서 호전이 잘되는 유제품에 비해 오래 지속되는 환자가 많음</ETC>
+    </FOOD_ALLERGY>
+
+    <FOOD_ALLERGY>
+        <FOOD_NM>복숭아</FOOD_NM>
+        <EXPRESSION_AGE>불특정</EXPRESSION_AGE>
+        <SYMPTOM_CON></SYMPTOM_CON>
+        <SYMPTOM>두드러기 및 간지럼증, 경우에 따라 호흡 곤란 및 어지럼증</SYMPTOM>
+        <ETC></ETC>
+    </FOOD_ALLERGY>
+
+    <FOOD_ALLERGY>
+        <FOOD_NM>토마토</FOOD_NM>
+        <EXPRESSION_AGE>불특정</EXPRESSION_AGE>
+        <SYMPTOM_CON></SYMPTOM_CON>
+        <SYMPTOM>두드러기 및 간지럼증</SYMPTOM>
+        <ETC></ETC>
+    </FOOD_ALLERGY>
+
+    <FOOD_ALLERGY>
+        <FOOD_NM>돼지고기</FOOD_NM>
+        <EXPRESSION_AGE>불특정</EXPRESSION_AGE>
+        <SYMPTOM_CON>돼지고기, 쇠고기, 닭고기가 모두 제한되는 경우 철분을 많이 함유하는 식품을 대체하여 섭취해야함</SYMPTOM_CON>
+        <SYMPTOM>위장관 증상, 호흡곤란, 피부발진 및 두드러기, 간지럼증</SYMPTOM>
+        <ETC></ETC>
+    </FOOD_ALLERGY>
+
+    <FOOD_ALLERGY>
+        <FOOD_NM>쇠고기</FOOD_NM>
+        <EXPRESSION_AGE>불특정</EXPRESSION_AGE>
+        <SYMPTOM_CON>돼지고기, 쇠고기, 닭고기가 모두 제한되는 경우 철분을 많이 함유하는 식품을 대체하여 섭취해야함</SYMPTOM_CON>
+        <SYMPTOM>위장관 증상, 호흡곤란, 피부발진 및 두드러기, 간지럼증</SYMPTOM>
+        <ETC></ETC>
+    </FOOD_ALLERGY>
+
+    <FOOD_ALLERGY>
+        <FOOD_NM>닭고기</FOOD_NM>
+        <EXPRESSION_AGE>불특정</EXPRESSION_AGE>
+        <SYMPTOM_CON>돼지고기, 쇠고기, 닭고기가 모두 제한되는 경우 철분을 많이 함유하는 식품을 대체하여 섭취해야함</SYMPTOM_CON>
+        <SYMPTOM>위장관 증상, 호흡곤란, 피부발진 및 두드러기, 간지럼증</SYMPTOM>
+        <ETC></ETC>
+    </FOOD_ALLERGY>
+
+    <FOOD_ALLERGY>
+        <FOOD_NM>우유</FOOD_NM>
+        <EXPRESSION_AGE>영유아 및 아동</EXPRESSION_AGE>
+        <SYMPTOM_CON>어린나이 아나필락시스의 주원인</SYMPTOM_CON>
+        <SYMPTOM>피부발진 및 두드러기, 호흡곤란, 위장관 증상 등</SYMPTOM>
+        <ETC>우유 알레르기 환자는 유제품, 산양유도 주의해야함</ETC>
+    </FOOD_ALLERGY>
+
+    <FOOD_ALLERGY>
+        <FOOD_NM>난류</FOOD_NM>
+        <EXPRESSION_AGE>영유아</EXPRESSION_AGE>
+        <SYMPTOM_CON>어린나이 아나필락시스의 주원인</SYMPTOM_CON>
+        <SYMPTOM>피부발진 및 두드러기, 호흡곤란, 위장관 증상 등</SYMPTOM>
+        <ETC></ETC>
+    </FOOD_ALLERGY>
+</DOCUMENT>
